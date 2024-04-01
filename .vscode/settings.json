@@ -1,22 +1,98 @@
 {
-  "workbench.colorCustomizations": {
-    "activityBar.activeBackground": "#3399ff",
-    "activityBar.background": "#3399ff",
-    "activityBar.foreground": "#15202b",
-    "activityBar.inactiveForeground": "#15202b99",
-    "activityBarBadge.background": "#bf0060",
-    "activityBarBadge.foreground": "#e7e7e7",
-    "commandCenter.border": "#e7e7e799",
-    "sash.hoverBorder": "#3399ff",
-    "statusBar.background": "#007fff",
-    "statusBar.foreground": "#e7e7e7",
-    "statusBarItem.hoverBackground": "#3399ff",
-    "statusBarItem.remoteBackground": "#007fff",
-    "statusBarItem.remoteForeground": "#e7e7e7",
-    "titleBar.activeBackground": "#007fff",
-    "titleBar.activeForeground": "#e7e7e7",
-    "titleBar.inactiveBackground": "#007fff99",
-    "titleBar.inactiveForeground": "#e7e7e799"
+  "workbench.colorTheme": "Bluloco Dark",
+  "window.zoomLevel": 6,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "vscode-icons",
+  "[python]": {
+    "editor.formatOnType": true
   },
-  "peacock.color": "#007fff"
+  "workbench.layoutControl.enabled": false,
+  "editor.fontSize": 20,
+  "editor.letterSpacing": 0.5,
+  "terminal.integrated.fontSize": 18,
+  "editor.minimap.enabled": false,
+  "editor.hover.delay": 1500,
+  "editor.glyphMargin": true,
+  "editor.formatOnSave": true,
+  "indentRainbow.includedLanguages": ["python"],
+  "indentRainbow.updateDelay": 100,
+  "indentRainbow.colors": [
+    "rgba(0,100,255,0.1)",
+    "rgba(60,179,113,0.1)",
+    "rgba(255,127,255,0.07)",
+    "rgba(79,236,236,0.07)"
+  ],
+  "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
+  "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
+  "editor.tokenColorCustomizations": {
+    "variables": "#F4F4E0",
+    "textMateRules": [
+      {
+        "scope": [
+          "source",
+          "variable",
+          "constant",
+          "variable.other.constant",
+          "punctuation.definition.constant",
+          "constant.other.symbol",
+          "constant.language.symbol",
+          "support.constant",
+          "support.variable.magic.python",
+          "variable.other.enummember"
+        ],
+        "settings": {
+          "foreground": "#F4F4E0"
+        }
+      }
+    ]
+  },
+  "indentRainbow.indicatorStyle": "light",
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "git.autofetch": true
 }
